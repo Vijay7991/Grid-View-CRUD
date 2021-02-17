@@ -1,0 +1,78 @@
+﻿.footer {
+    bottom:0px;
+    position:fixed;
+    text-align:center;
+    width: 100%;
+    color: white;
+    background-color: black;
+    height:5%;
+}
+header
+{
+    top:auto;
+    position:fixed;
+    color:black;
+    font-size:xx-large;
+    width:100%;
+    background-color:#808080;
+}
+.btnadd
+{
+    color:white;
+    background-color:blue;
+    border-radius:5px;
+    height:40px;
+    width:120px;
+}
+.btnadd:hover
+{
+    background-color:red;
+    opacity:0.8;
+}
+.TextBox2 {
+    height: 25px;
+    width: 150px;
+    border: 2px solid black;
+    border-radius:3px;
+    padding:5px;
+    margin:10px;
+}
+.grid {
+    margin: 20px;
+    margin-top: 60px;
+ 
+}
+.div2 {
+    margin: 20px;
+    margin-top:0px;
+}
+.Txtbox {
+    list-style-type:none;
+    width:100%;
+    
+
+}
+li {
+    list-style-type: none;
+    float: left;
+    padding: 10px;
+    margin: 10px;
+}
+#description
+{
+    height:120%;
+    width:330%;
+}
+.Button1:hover
+{
+    background-color:red;
+}
+.garbage {
+    display: none;
+}
+.garbage[style*=visible] + input,
+.garbage[style*=visible] + select,
+.garbage[style*=visible] + textarea {
+        background-color: #ffcccc;
+        border: 1px solid #ff0000;
+    }
